@@ -1,0 +1,251 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  header{
+    overflow: hidden;
+  }
+  .navbar{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rosybrown; */
+  }
+  .heading{
+    display: flex;
+    padding-right: 32%;
+  }
+
+  .heading ul {
+    display: flex;
+    list-style-type: none;
+    /* gap: 30px; */
+    padding-top: 11px;
+    color: #505F98;
+     
+  }
+  .heading ul li{
+    padding-left: 50px;
+  }
+  .heading h1{
+    padding-left: 31%;
+    color: #37447E;
+  }
+ 
+  .btn1{
+    padding-left: 65%;
+    color: #fcfdff;
+    padding-top: 4px;
+  }
+  .btn1 button{
+    padding: 6px 55px 6px 55px ;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 44);
+  }
+  .page1{
+    display: flex;
+    padding-top:11%;
+    /* padding-left:5% ; */
+  }
+  .page1 h1{
+    font-weight:500 ;
+    line-height: 50px;
+   
+  }
+  .p-left{
+    /* padding-left:30px ; */
+    width: 50%;
+    /* border: 2px solid black; */
+  }
+  .content{
+    padding-left: 26%;
+    padding-top: 8%;
+  }
+  .p-left p{
+    line-height: 24px;
+    padding-top: 20px;
+    color: #505F98;
+    
+
+  }
+  .span{
+    margin-top: 10px;
+    line-height: 24px;
+    color: #505F98;
+    
+  }
+  .btn{
+    display: flex;
+    padding-top: 10px;
+    gap: 13px;
+    
+  }
+  .btn2 button{
+    padding: 6px 55px 6px 55px ;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 44);
+  }
+  .btn3 button{
+    padding: 6px 55px 6px 55px ;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+  .p-right img{
+  height: 500px;
+  width: 600px;
+  margin-left: 5%;
+  }
+  .page2{
+    display: flex;
+    padding-top: 20%;
+    /* padding-left:5% ; */
+  }
+  .page2 h1{
+    font-weight:500 ;
+    line-height: 50px;
+   
+  }
+  .content2{
+    padding-left: 24%;
+    padding-top: 8%;
+  }
+  
+  .p-left2 p{
+    line-height: 24px;
+    padding-top: 20px;
+    color: #505F98;
+  }
+  .content2 span{
+    margin-top: 10px;
+    color: #505F98;
+    line-height: 24px;
+    
+  }
+  .card{
+    width: 64%;
+    display: flex;
+    height: 200px;
+    margin-left: 23%;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+  }
+.card1 h1{
+  font-size: 18px;
+}
+ .card1 p{
+  /* padding-top: 10px; */
+  margin: -33px 1px;
+ }
+ .card2 h1{
+  font-size: 18px;
+}
+ .card2 p{
+  /* padding-top: 10px; */
+  margin: -33px 1px;
+ }
+ .page3{
+  display: flex;
+  padding-top: 5%;
+ }
+ .page3 h1{
+  font-weight:500 ;
+  line-height: 50px;
+ 
+}
+
+ .pic2{
+  padding-left: 126px;
+ }
+ 
+ .content3{
+  padding-left: 36%;
+  padding-top: 8%;
+  margin-left: -27%;
+  margin-top: 3%;
+}
+.p-right3 p{
+  line-height: 24px;
+  padding-top: 20px;
+  color: #505F98;
+}
+.content3 span{
+  margin-top: 10px;
+  color: #505F98;
+  line-height: 24px;
+  
+}
+.page4{
+  display: flex;
+  padding-top: 5%;
+}
+.pic3{
+  padding-left: 126px;
+ }
+ .content4{
+  padding-left: 36%;
+  padding-top: 8%;
+  margin-left: -27%;
+  margin-top: 3%;
+}
+.p-right4 p{
+  line-height: 24px;
+  padding-top: 20px;
+  color: #505F98;
+}
+.content4 span{
+  margin-top: 10px;
+  color: #505F98;
+  line-height: 24px; 
+}
+.section{
+  padding: 11% 33%;
+  width: 116%;
+  /* position: absolute; */
+  background-color: #E7ECFF;
+  opacity: 0.2;
+}
+.section h4{
+  padding-bottom: 15px;
+  padding-left: 22%;
+  font-size: 25px;
+}
+.section p{
+  line-height: 25px;
+}
+.section h2{
+  padding-top: 15px;
+  padding-left: 38%;
+  font-size: 36px;
+  font-weight: lighter;
+}
+.section span{
+  padding-left: 31%;
+  padding-top: 20px;
+}
+.section .btn3{
+  padding-left: 31%;
+}
+.main{
+  /* position: relative; */
+  z-index: 2;
+
+}
+.part1{
+  display: flex;
+  /* position: relative; */
+  padding-top: 40px;
+  align-items: center;
+  padding-bottom: 30px;
+  justify-content: center;
+  gap: 30%;
+  background: #E7ECFF;
+}
+.btn4 {
+  padding: 6px 55px 6px 55px ;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 44);
+}
